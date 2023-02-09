@@ -365,12 +365,13 @@ footer .main {
 }
 
 .footer-links {
+  font-size: 20px;
   max-width: 1000px;
   min-width: 300px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  margin-top: 20px;
+  margin-top: 5px;
 }
 
 .footer-company,
@@ -412,7 +413,7 @@ footer .last a{
 
 /* RESPONSIVIDADE */
 
-@media (max-width: 576px) {
+@media (max-width: 870px) {
   nav ul li{
     display: none;
   }
